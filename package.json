@@ -1,0 +1,13 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth Service",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server"
+  },
+  "keywords": [],
+  "author": "Rohit Singh",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3"
+}
