@@ -8,16 +8,21 @@
     "build": "tsc",
     "types:check": "tsc --noEmit",
     "format:fix": "pnpm exec prettier . --write",
-    "format:check": "pnpm exec prettier . --check"
+    "format:check": "pnpm exec prettier . --check",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "Rohit Singh",
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
+    "@eslint/js": "^9.37.0",
     "@types/node": "^22.13.14",
+    "eslint": "^9.37.0",
     "prettier": "3.6.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
   }
 }
