@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "ts-node src/server",
     "build": "tsc",
-    "types:check": "tsc --noEmit"
+    "types:check": "tsc --noEmit",
+    "format:fix": "pnpm exec prettier . --write",
+    "format:check": "pnpm exec prettier . --check"
   },
   "keywords": [],
   "author": "Rohit Singh",
@@ -14,6 +16,7 @@
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
     "@types/node": "^22.13.14",
+    "prettier": "3.6.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

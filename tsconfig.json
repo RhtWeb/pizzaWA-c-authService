@@ -9,7 +9,7 @@
     "resolveJsonModule": true,
     "allowArbitraryExtensions": true,
     "lib": ["es2023", "DOM"],
-    "strict": true,
+    "strict": true
     // "skipLibCheck": true,
   },
   "include": ["./src"],
