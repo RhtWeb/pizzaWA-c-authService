@@ -2,6 +2,7 @@
 
 import eslint from '@eslint/js';
 import { defineConfig } from 'eslint/config';
+import prettierConfig from 'eslint-config-prettier';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig(
@@ -21,4 +22,5 @@ export default defineConfig(
       "no-console": "warn"
     }
   },
+  prettierConfig
 );
