@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "NodeNext", //commonjs
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true,
+    "lib": ["es2023", "DOM"],
+    "strict": true,
+    // "skipLibCheck": true,
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.test.*", "**/*.fixture.*"]
+}

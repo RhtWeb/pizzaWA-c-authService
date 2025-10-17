@@ -2,12 +2,19 @@
   "name": "auth-service",
   "version": "1.0.0",
   "description": "Auth Service",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "dev": "node src/server"
+    "dev": "ts-node src/server",
+    "build": "tsc",
+    "types:check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "Rohit Singh",
   "license": "ISC",
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }
